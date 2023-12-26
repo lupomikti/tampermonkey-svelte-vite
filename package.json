@@ -1,9 +1,9 @@
 {
-  "name": "tampermonkey-svelte-5-vite",
+  "name": "tampermonkey-svelte-vite",
   "version": "1.0.0",
   "description": "Tampermonkey template that uses svelte 5 and Vite to build UserScripts",
   "author": "Lucas Shanley",
-  "homepage": "https://github.com/lpshanley/tampermonkey-svelte#readme",
+  "homepage": "https://github.com/lupomikti/tampermonkey-svelte-vite#readme",
   "type": "module",
   "scripts": {
     "build": "vite build -c ./vite.config.ts",
