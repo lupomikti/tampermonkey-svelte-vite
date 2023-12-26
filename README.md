@@ -70,11 +70,19 @@ userScriptPlugin({
         ...
         // Namespace of the script (ex: https://example.com)
         namespace: "https://example.com",
-        ...
-        // URLs you would like scripts to run on
+        // Resources you wish the script to make use of
+        resource: {
+            css: "https://example.com/path/to/css",
+            keyname: "https://example.com/somefile.json",
+            ...
+        },
+        // URLs you would like scripts to run on (list of strings)
         match: [],
-        ...
-        // Domains you need to make requests from
+        // Other javascript / scripts you wish to require and have included
+        require: [],
+        // GM_/GM.*/unsafewindow/window.* you wish to grant access to (list of strings)
+        grant: [],
+        // Domains you need to make requests from (list of strings)
         connect: [],
         ...
     }
